@@ -149,6 +149,146 @@
 
 // console.log(number)
 
+// const person = {
+//     firstName:"Shakil ",
+//     lastName:"Hossain",
+//     age:23,
+//     phone:"01780",
+//     district:"Lakshmipur",
+//     address:{
+//         house:"R11/H18",
+//         area:"Nikunja 2",
+//         city:"Dhaka"
+
+//     }
+// }
+
+//distructuring
+// const {
+//     firstName, 
+//     lastName,
+//     age,
+//     phone:mobile, 
+//     district = "Dhaka"
+//     } =person;
+// console.log(district)
+
+// console.log(mobile)
+
+
+
+// //nested distructuring
+
+// const {address:{
+//     house,area,city="dhaka"
+// }} = person;
+
+// console.log(house, area, city)
+
+
+// function addMultify({a,b}){
+// //  const {a,b} =options;
+//     return {sum: a+b, multify:a*b}
+// }
+// const {sum, multify} = addMultify({a:5,b:6})
+// console.log(sum, multify);
+
+// const salads = ["brocoli", "green paper ", "red paper"];
+// const frutis = ["banana", "Mango", "apple", "Date"]
+
+// const person={
+//     name:"Shakil ",
+//     age:23,
+//     address:{
+//         streat:"nikunja 2, R11, H18",
+//         location:"Khilkhet, Dhaka , Bangladesh"
+//     },
+// };
+
+// const bio= {
+//     isMarried: "Yes",
+//     isEmplyed: "No"
+// }
+
+// // const tempvar = salads.concat(frutis, "shakil added");
+// // console.log(tempvar);
+
+// // salads.push.apply(salads,frutis);
+// // console.log(salads);
+
+// const newVar =[ ...salads]
+// console.log(newVar)
+// console.log(salads)
+ 
+// const year = new Date();
+
+
+// console.log(year.getFullYear())
+// console.log(year.getDate());
+// console.log(year.getDay());
+// console.log(year.getHours());
+// console.log(year.getMilliseconds());
+// console.log(year.getMinutes());
+// console.log(year.getTimezoneOffset());
+// console.log(year.getUTCDate());
+// console.log(year.toLocaleDateString());
+
+// const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+// const d = new Date();
+// let month = months[d.getMonth()];
+
+
+// console.log(month);
+
+// const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+// let time = new Date();
+
+// console.log(days[time.getDay()]);
+
+
+// const SetDate = new Date();
+// console.log(SetDate.setFullYear(2023));
+
+// const changeYear = new Date();
+
+// console.log(SetDate.getFullYear());
+
+
+//Math
+// const pi = Math.PI;
+// console.log(pi);
+// const power = Math.pow(5,2);
+// console.log(power);
+
+// console.log(Math.max(444,574,858,8578,88,87,));
+
+
+// console.log(Math.round(5.25));
+// console.log(Math.ceil(5.25));
+// console.log(Math.floor(5.25));
+// console.log(Math.trunc(5.25));
+
+// console.log(Math.pow(5, 3));
+// console.log(Math.sqrt(25));
+
+// // area of triangel
+// const b= 5;
+// const h= 8;
+// const area = 0.5*b*h;
+// console.log(area);
+
+// //Math.random();
+
+// console.log(Math.random()*10);
+// const  intigerRandom = Math.random()*10;
+// console.log(Math.ceil(intigerRandom))
+
+// const othernumber = Math.random()*10;
+// console.log(Math.ceil(othernumber))
+
+ 
 
 
 
